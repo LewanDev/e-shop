@@ -1,10 +1,11 @@
 import Navbar from "../NavBar/Navbar"
+import CartElements from "./CartElements"
 
 const CartContent = () => {
   return (
     <>
       <Navbar />
-      <div>Carrito</div>
+      <CartElements />
     </>
   )
 }
