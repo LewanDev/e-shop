@@ -1,14 +1,14 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const Context = createContext();
 
 const ContextProvider = ({ children }) => {
-  const savedCart = localStorage.getItem("cart") || []
-  const [cart, setCart] = useState([]);
+  const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+  const [cart, setCart] = useState(savedCart);
 
-  //setItem: LOCALSTORAGE
-
-  //getItem
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   const addProduct = (product) => {
     const productExists = cart.find((item) => item.id === product.id);
@@ -17,7 +17,7 @@ const ContextProvider = ({ children }) => {
         cart.map((item) =>
           item.id === product.id
             ? { ...product, quanty: productExists.quanty + 1 }
-            : item 
+            : item
         )
       );
     } else {
