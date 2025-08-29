@@ -1,44 +1,50 @@
 [
   {
     "id": 1,
-    "name": "Auriculares de vincha",
-    "price": 65000,
-    "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "quanty": 1
+    "name": "Cartera Rumiz",
+    "price": 72000,
+    "img": "https://acdn-us.mitiendanube.com/stores/718/388/products/40236-e36a8354e2430245ca17460329489828-1024-1024.webp",
+    "quanty": 1,
+    "desc": "Cartera con bolsillos, matelasse, logo en chapa metálica y correa regulable de poliéster."
   },
   {
     "id": 2,
-    "name": "Auto de juguete Lego",
-    "price": 8500,
-    "img": "https://images.unsplash.com/photo-1565438480821-03e254dae4f4?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "quanty": 1
+    "name": "Bandolera Patte",
+    "price": 65000,
+    "img": "https://acdn-us.mitiendanube.com/stores/718/388/products/30339-83a103b0fc7c49e17f17430033726728-1024-1024.webp",
+    "quanty": 1,
+    "desc": "Bandolera pequeña con botón y bolsillo con solapa al frente. Herrajes en dorado y logo metalizado. Correa regulable."
   },
   {
     "id": 3,
-    "name": "Banco de madera",
-    "price": 25900,
-    "img": "https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "quanty": 1
+    "name": "Mochila Nelia",
+    "price": 44340,
+    "img": "https://acdn-us.mitiendanube.com/stores/718/388/products/60004-1-fad70b18b64b99118617441302636720-1024-1024.webp",
+    "quanty": 1,
+    "desc": "Mochila mediana con efecto tipo matelasse, cierres plásticos tipo 'diente de perro' y detalle de 'animal print' en el bolsillo frontal. Doble división y correas de poliéster."
   },
   {
     "id": 4,
-    "name": "Taza de cerámica",
-    "price": 1200,
-    "img": "https://plus.unsplash.com/premium_photo-1717586678487-ae60e31b28f7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "quanty": 1
+    "name": "Bandolera Opis",
+    "price": 69800,
+    "img": "https://acdn-us.mitiendanube.com/stores/718/388/products/30320-9db932cf66374ee04017429935948049-1024-1024.webp",
+    "quanty": 1,
+    "desc": "Bandolera combinada con detalle en la tapa, logo grabado y herrajes en dorado. Correa regulable y división interna."
   },
   {
     "id": 5,
-    "name": "Brandy importado",
-    "price": 129900,
-    "img": "https://images.unsplash.com/photo-1629960964299-0686f09a5be7?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "quanty": 1
+    "name": "Cartera Tresa",
+    "price": 46680,
+    "img": "https://acdn-us.mitiendanube.com/stores/718/388/products/30338-b7ee66bb8ffa38192a17430028363326-1024-1024.webp",
+    "quanty": 1,
+    "desc": "Cartera mediana con botón y bolsillo al frente. Herrajes en dorado y logo metalizado. Correa desmontable para usar como bandolera."
   },
   {
     "id": 6,
-    "name": "Botella azul",
-    "price": 17800,
-    "img": "https://plus.unsplash.com/premium_photo-1673891210608-c08630bbb136?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "quanty": 1
+    "name": "Mochila Sisu",
+    "price": 40200,
+    "img": "https://acdn-us.mitiendanube.com/stores/718/388/products/40230-869c9655d6f6c4da8c17459519955424-1024-1024.webp",
+    "quanty": 1,
+    "desc": "Mochila con doble cierre en bolsillo al frente. Herrajes niquelados, cierres metálicos y logo metalizado. Correas regulables y detalle de tirador con tachas. "
   }
 ]

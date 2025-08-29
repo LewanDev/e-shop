@@ -18,6 +18,7 @@ const Products = () => {
         <img src={product.img} alt={product.name} />
         <h3>{product.name}</h3>
         <h4>${product.price}</h4>
+        <p>{product.desc}</p>
         <button onClick={() => addProduct(product)}>Comprar</button>
       </div>
     );

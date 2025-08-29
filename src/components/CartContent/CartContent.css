@@ -1,3 +1,13 @@
+.cart-content{
+  margin: 25px 5px;
+}
+
+.cart-title{
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 40px;
+}
+
 .cart-card-container {
   padding: 5px;
   border-radius: 10px;
@@ -12,8 +22,9 @@
 
 .cart-card-container > img {
   width: 200px;
-  height: 150px;
-  object-fit: cover;
+  height: 300px;
+  object-fit: fill;
+  border-radius: 10px;
 }
 
 .cart-card-detail {
