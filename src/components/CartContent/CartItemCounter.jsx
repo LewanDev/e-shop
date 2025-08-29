@@ -1,11 +1,32 @@
-const CartItemCounter = () => {
+import { useContext } from "react";
+import { dataContext } from "../../context/Context";
+
+const CartItemCounter = ({ product }) => {
+  const { cart, setCart, addProduct } = useContext(dataContext);
+  const decrease = () => {
+    const productExists = cart.find((item) => item.id === product.id);
+
+    if (productExists.quanty !== 1) {
+      setCart(
+        cart.map((item) =>
+          item.id === product.id
+            ? { ...product, quanty: productExists.quanty - 1 }
+            : item
+        )
+      );
+    }
+  };
+
   return (
     <div className="cart-itemcounter">
-      <span className="cart-itemcounter-title">Cantidad</span>
       <div className="cart-addremove">
-        <p className="btn">➖</p>
-        <p className="quanty">01</p>
-        <p className="btn">➕</p>
+        <p className="btn" onClick={decrease}>
+          ➖
+        </p>
+        <p className="quanty">{product.quanty}</p>
+        <p className="btn" onClick={() => addProduct(product)}>
+          ➕
+        </p>
       </div>
     </div>
   );

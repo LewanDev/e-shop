@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Context } from "../../context/Context";
 
 const CartTotal = () => {
-  const { cart } = useContext(Context);
+  const { cart, clearCart } = useContext(Context);
 
   const total = cart.reduce(
     (acc, element) => acc + element.price * element.quanty,
@@ -10,7 +10,8 @@ const CartTotal = () => {
   );
   return (
     <div className="cart-total">
-      <h3>Total a pagar: ${total}</h3>
+      <span>Total a pagar: ${total}</span>
+      <button onClick={clearCart}>Vaciar carrito</button>
     </div>
   );
 };

@@ -24,6 +24,26 @@
 .cart-total {
   text-align: center;
   font-size: large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cart-total span {
+  font-size: large;
+  font-weight: bold;
+}
+
+.cart-total button {
+  border: none;
+  outline: 0;
+  color: white;
+  padding: 10px 20px;
+  background-color: #d62828;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 .cart-btn-delete {
@@ -55,4 +75,9 @@
 .cart-addremove .quanty {
   font-size: large;
   font-weight: bold;
+}
+
+.cart-message-empty {
+  text-align: center;
+  margin-top: 40px;
 }
