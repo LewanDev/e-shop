@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { dataContext } from "../../context/Context";
+import { Context } from "../../context/Context";
 
 const CartItemCounter = ({ product }) => {
-  const { cart, setCart, addProduct } = useContext(dataContext);
+  const { cart, setCart, addProduct } = useContext(Context);
   const decrease = () => {
     const productExists = cart.find((item) => item.id === product.id);
 

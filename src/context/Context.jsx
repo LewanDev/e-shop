@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-export const dataContext = createContext();
+export const Context = createContext();
 
 const ContextProvider = ({ children }) => {
   const savedCart = localStorage.getItem("cart") || []
@@ -31,9 +31,9 @@ const ContextProvider = ({ children }) => {
 
   return (
     <>
-      <dataContext.Provider value={{ cart, setCart, addProduct, clearCart }}>
+      <Context.Provider value={{ cart, setCart, addProduct, clearCart }}>
         {children}
-      </dataContext.Provider>
+      </Context.Provider>
     </>
   );
 };

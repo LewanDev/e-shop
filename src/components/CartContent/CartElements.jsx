@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { dataContext } from "../../context/Context";
+import { Context } from "../../context/Context";
 import CartItemCounter from "./CartItemCounter";
 
 const CartElements = () => {
-  const { cart, setCart } = useContext(dataContext);
+  const { cart, setCart } = useContext(Context);
 
   const deleteProduct = (_id) => {
     const newCart = cart.filter((element) => element.id !== _id);

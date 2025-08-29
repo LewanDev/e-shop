@@ -1,10 +1,10 @@
 import { useContext, useState, useEffect } from "react";
-import { dataContext } from "../../context/Context";
+import { Context } from "../../context/Context";
 import "./Products.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
-  const { addProduct } = useContext(dataContext);
+  const { addProduct } = useContext(Context);
 
   useEffect(() => {
     fetch("data.json")
